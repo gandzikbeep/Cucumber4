@@ -58,10 +58,11 @@ public class MyStepDefinitions extends Base {
     }
 
     @And("^User proceeded to Checkout page for purchase$")
-    public void user_proceeded_to_checkout_page_for_purchase()  {
+    public void user_proceeded_to_checkout_page_for_purchase2()  {
         cp = new CheckOutPage(driver);
         cp.getCart().click();
         cp.getCheckout().click();
+
 
 
 //        driver.findElement(By.xpath("//a[@class='cart-icon']//img[contains(@class,'')]")).click();
